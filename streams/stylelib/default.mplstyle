@@ -1,0 +1,93 @@
+# https://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+
+## ***************************************************************************
+## * FIGURE                                                                  *
+## ***************************************************************************
+
+figure.facecolor:   None    # broken white outside box
+figure.edgecolor:   None    # broken white outside box
+
+figure.titlesize:   12.0    # size of the figure title (``Figure.suptitle()``)
+figure.titleweight: bold    # weight of the figure title
+
+#figure.subplot.wspace: 0.1    # the amount of width reserved for space between subplots,
+                               # expressed as a fraction of the average axis width
+#figure.subplot.hspace: 0.1    # the amount of height reserved for space between subplots,
+                               # expressed as a fraction of the average axis height
+
+## ***************************************************************************
+## * FONT                                                                    *
+## ***************************************************************************
+
+font.family:    Arial
+font.style:     normal
+font.variant:   normal
+font.weight:    normal
+font.stretch:   normal
+font.size:      10.0
+
+text.color:     3b4245
+
+
+## ***************************************************************************
+## * AXES                                                                    *
+## ***************************************************************************
+
+axes.facecolor:         None        # axes background color
+axes.edgecolor:         e5e5e5      # axes edge color
+axes.linewidth:         0.5         # edge line width
+
+axes.grid:              True        # show grid
+axes.grid.axis:         y           # which axis the grid should apply to
+axes.grid.which:        major       # grid lines at {major, minor, both} ticks
+axes.axisbelow:         True        # keep grid layer in the back
+
+grid.color:             e5e5e5      # grid color
+grid.linestyle:         -           # solid
+grid.linewidth:         0.8         # in points
+grid.alpha:             1.0         # transparency, between 0.0 and 1.0
+
+axes.spines.right:      False       # do not show right spine
+axes.spines.top:        False       # do not show top spine
+
+axes.titlesize:         12.0        # font size of the axes title
+axes.titleweight:       bold        # font weight of title
+axes.titlepad:          10.0        # pad between axes and title in points
+
+axes.labelsize:         10.0        # font size of the x and y labels
+axes.labelpad:          6.0         # space between label and axis
+axes.labelweight:       normal      # weight of the x and y labels
+axes.labelcolor:        3b4245
+
+# green, lt green 4, gray, blue 3, blue 1, 2nd blue, 2nd pink, yellow 3, 2nd orange, blue 4, yellow 2
+axes.prop_cycle: cycler(color=['00524b','56bb92','7d9196','105c6d','002933','82c4b8','e5876b','f4bd57','d38b35','2fafe6','be800e'])
+
+
+## ***************************************************************************
+## * TICKS                                                                   *
+## ***************************************************************************
+
+xtick.top:          False
+xtick.bottom:       False
+
+ytick.left:         False
+ytick.right:        False
+
+xtick.color:        3b4245
+ytick.color:        3b4245
+
+
+## ***************************************************************************
+## * LEGEND                                                                  *
+## ***************************************************************************
+
+legend.framealpha:  0.5
+legend.frameon:     False   # do not draw on background patch
+legend.fancybox:    False   # do not round corners
+
+
+## ***************************************************************************
+## * SAVING FIGURES                                                          *
+## ***************************************************************************
+
+#savefig.transparent:   True    # save with transparent background
