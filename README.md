@@ -1,2 +1,2 @@
-# causal_inf_bookclub
+# Causal Inference: The Mixtape
 Supporting material for the book club
