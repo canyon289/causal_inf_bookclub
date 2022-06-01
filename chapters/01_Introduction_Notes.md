@@ -22,7 +22,7 @@
 * At this point I don't know too much about P or Q or the underlying assumptions about this model
   * Scott says he'll bring it up later so I'm excited to see what that is
 
-## Conclusion
+## [Conclusion](https://mixtape.scunning.com/introduction.html#conclusion)
 * I'm going to use python. 
   * People can use whatever they want
   * All program files seem to be available here https://github.com/scunning1975/mixtape
