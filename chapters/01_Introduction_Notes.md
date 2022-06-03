@@ -1,4 +1,4 @@
-# Introduciton Notes
+# Introduction Notes
 
 ## [Introduction](https://mixtape.scunning.com/introduction.html#introduction)
 * Little experiences caused big changes in the direction of Scott's life
