@@ -14,3 +14,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Exogenous_and_endogenous_variable
 
 ### My definition
 If this were a PPL model its the outside data that we don't have control over
+
+
+## Random Process
+A random process is a process that can be repeated many times with different outcomes each time.
