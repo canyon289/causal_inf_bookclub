@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@600;700&family=Source+Sans+Pro:wght@0,400;0,700;1,200;1,400&display=swap');
+
+
+/* Fonts & Colors
+    ------
+    * Black #12221D
+    * Dark Green #00524B
+    * Light Green #56BB92
+    * Light Gray #F4F5FB
+    * Dark Gray #BEBEBE
+*/
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p {
+    font-family: "Open Sans", sans-serif;
+    margin: 0.2rem 0 0 0 ;
+    color: #12221D;
+}
+.reveal h1 {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #00524B;
+}
+.reveal h2, .reveal h3 {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.reveal p strong {
+    color: #56BB92;
+}
+::selection {
+    background-color: #56BB92;
+    color: #FFFFFF;
+}
+ul li::marker {
+    color: #56BB92;
+}
+
+/* Links */
+.rise-enabled .reveal a {
+    color: #56BB92;
+}
+
+/* Format cell */
+div.text_cell_render.rendered_html {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Background */
+.reveal .slide-background-content {
+    opacity: 50%;
+    background-image: url("https://raw.githubusercontent.com/canyon289/canyon289.github.io/main/docs/images/logo/logo-stroke.png");
+    background-position: bottom 20px right 20px;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+}
+
+/* Arrow */
+.controls-arrow {
+    opacity: 0;
+}
+
+/* Slide Number */
+.rise-enabled .reveal .slide-number {
+    right: 100px;
+}
+.slide-number-delimiter {
+/*     visibility: hidden; */
+    margin-right: 1px;
+}
+.slide-number-b {
+/*     visibility: hidden; */
+}
+
+/* Make slide number font bigger*/
+.reveal .slide-number {
+    font-size: 36px
+}
+
+/* Change bottom spacing*/
+.rise-enabled .reveal .slide-number {
+    bottom: 30px;
+}
