@@ -10,3 +10,4 @@ I do suggest you start your own repo!
 Official Repo for the book can be found here
 https://github.com/scunning1975/mixtape
 
+Python Reference: https://github.com/tomcaputo/mixtape_learnr/tree/main/Python
